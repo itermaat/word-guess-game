@@ -1,0 +1,17 @@
+header{
+	text-align: center;
+	background-color: #8c9eff;
+	border: solid 1px black;
+	border-radius: 5px;
+}
+h1{
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+}
+h2{
+	text-align: center;
+}
+.title{
+	width:150px;
+	height: 100px;
+}
