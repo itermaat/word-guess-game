@@ -1,8 +1,9 @@
 header{
+	width:100%;
 	text-align: center;
 	background-color: #8c9eff;
-	border: solid 1px black;
-	border-radius: 5px;
+	border-bottom: solid 20px #1a237e;
+	
 }
 h1{
 	text-align: center;
@@ -10,8 +11,50 @@ h1{
 }
 h2{
 	text-align: center;
+	font-family: 'Fredoka One', cursive;
 }
 .title{
 	width:150px;
 	height: 100px;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+
+#subcontent{
+	margin:auto;
+	margin-top: 10px;
+	width:20%;
+	height:200px;
+	background-color: #1a237e;
+	border: solid 4px #8c9eff;
+	border-radius: 10px;
+}
+
+#maincontent{
+	margin:auto;
+	margin-top: 20px;
+	width:50%;
+	height:300px;
+	border: solid 1px #c5cae9;
+	padding: 50px;
+	padding-top: 30px;
+}
+
+.btn{
+	background-color: #8c9eff;
+	border: solid 3px black;
+	color:black;
+	font-family: 'Fredoka One', cursive;
+	margin:auto;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 15px;
+}
+p{
+	color:#1a237e;
+	font-family: 'Fredoka One', cursive;
+	margin-top: 10px;
 }
