@@ -31,10 +31,17 @@
 	<!--------------------------MAIN CONTENT------------------------- -->
 
 	<div id=maincontent>
-		<p>Wins:</p>
-		<p>Word:</p>
-		<p>Letters Guessed:</p>
+		<div></div>
+		<p id="wins"></p>
+		<p id="word" class="spaced"></p>
+		<p id="guessed"></p>
 	</div>
+
+	<script type="text/javascript">
+		document.getElementById("wins").innerHTML = "Wins: " + wins;
+		document.getElementById("word").innerHTML = "Word: " + dashedWord;
+		document.getElementById("guessed").innerHTML = "Letters Guessed: " + lettersGuessed;
+	</script>
 
 
 

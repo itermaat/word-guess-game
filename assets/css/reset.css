@@ -18,13 +18,17 @@ h2{
 	height: 100px;
 }
 
+.spaced{
+	word-spacing: 4px;
+}
+
 body{
 	background-color: #fafafa;
 }
 
 
 #subcontent{
-	margin:auto;
+	margin: auto;
 	margin-top: 10px;
 	width:20%;
 	height:200px;
@@ -56,5 +60,5 @@ body{
 p{
 	color:#1a237e;
 	font-family: 'Fredoka One', cursive;
-	margin-top: 10px;
+	margin-top: 20px;
 }
