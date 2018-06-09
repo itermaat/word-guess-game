@@ -23,7 +23,9 @@
 
 	<!--------------------------IMAGE------------------------------- -->
 
-	<div id=subcontent></div>
+	<div id=subcontent>
+		
+	</div>
 
 
 
@@ -33,14 +35,16 @@
 	<div id=maincontent>
 		<div></div>
 		<p id="wins"></p>
+		<p id="lives"></p>
 		<p id="word" class="spaced"></p>
 		<p id="guessed"></p>
 	</div>
 
 	<script type="text/javascript">
 		document.getElementById("wins").innerHTML = "Wins: " + wins;
-		document.getElementById("word").innerHTML = "Word: " + dashedWord;
+		document.getElementById("word").innerHTML = "Word: " + dashedWord.join(" ");
 		document.getElementById("guessed").innerHTML = "Letters Guessed: " + lettersGuessed;
+		document.getElementById("lives").innerHTML = "Lives: " + lives;
 	</script>
 
 

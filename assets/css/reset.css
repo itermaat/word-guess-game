@@ -26,6 +26,12 @@ body{
 	background-color: #fafafa;
 }
 
+img{
+	width:70%;
+	height:70%;
+    margin:15%;
+}
+
 
 #subcontent{
 	margin: auto;
