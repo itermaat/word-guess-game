@@ -60,6 +60,13 @@ function printLetter(){
 			document.getElementById("guessed").innerHTML += guess + " ";
 			lettersGuessed.push(guess);
 		}
+		if(wordComplete() == true)
+		{
+			count++;
+			current = phrases[count];
+			console.log(current);
+			dashedWord = dashes(current);
+		}
 	
 }
 
@@ -74,8 +81,8 @@ function dashes(word){
 
 function wordComplete(){
 	for(var i=0; i<dashedWord.length; i++){
-		if(dashedWord[i] == "_ "){
-			return false
+		if(dashedWord[i] != current[i]){
+			return false;
 		}
 	}
 	return true;
